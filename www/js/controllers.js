@@ -35,8 +35,8 @@ angular.module('starter.controllers', [])
       gender: $scope.data.gender,
       age: $scope.data.age
     });
-    person.assessCooper($scope.data.distance);
+    person.cooperDistance($scope.data.distance);
     $scope.person = person;
     console.log($scope.person)
   };
-};
+})

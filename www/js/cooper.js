@@ -4,7 +4,7 @@ function Person(attr) {
 
 
   Person.prototype.cooperDistance = function (distance) {
-    if (this.gender.toUpperCase() = 'MALE') {
+    if (this.gender.toLowerCase() = 'male') {
       this.cooperMessage = this.getCooperResultsForMales(distance);
     } else {
       this.cooperMessage = this.getCooperResultsforFemales(distance);
